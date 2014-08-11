@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+
+{% block nav %}
+				<li><a href="/" class="current">Главная</a></li>
+                <li><a href="/works/">Портфолио</a></li>
+                <li><a href="about.html">Услуги</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="/contact/">Заказ сьемки</a></li>
+                {% endblock %}
+{% block content %}
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3 inline-list-custom">
+			
+			Добро пожаловать на сайт, посвященный Свадебной фотосъемке.
+            Здесь вы можете ознакомится с нашим работами,
+            и заказать съемку вашей свадьбы или просто фотосессию.
+	</div>
+</div>
+
+
+{% endblock %}
+

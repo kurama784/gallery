@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>WeddingPhoto &mdash; Kiev</title>
+<meta name="description" content="Page description goes here">
+
+<!-- ******************************************************************************************
+Set the type and color theme here - the Pro version contains additional themes -->
+<link href="{{ STATIC_URL }}css/hawthorne_type2_color3.css" rel="stylesheet">
+<!--  ************************************************************************************* -->
+
+<link href="{{ STATIC_URL }}css/font-awesome.min.css" rel="stylesheet">
+<script src="{{ STATIC_URL }}js/vendor/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="top-border"></div>
+
+<div class="row">
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<header>		
+			<h1><a href="">WeddingPhotoKiev</a></h1>
+			<h2><a href="index.html">Design & Art</a></h2>
+			<!--
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="Your Name Here" /></a>
+			</div>
+			-->
+		</header>
+	</div>
+	<div class="small-12 medium-12 large-12 small-centered columns">
+		<nav>
+			<ul class="inline-list-custom">
+                {% block nav %}
+                {% endblock %}
+			</ul>
+		</nav>
+	</div>
+</div>
+
+{% block content %}
+
+
+{% endblock %}
+
+{% block footer %}
+
+    <div class="row">
+	<div class="small-12 medium-12 large-12 columns">
+		<footer>
+			<ul>
+				<li>&copy; 2014 <a href="#">Wedding Photo Kiev</a>. All rights reserved.</li>
+				<li><a href="mailto:hello@yourname.com"><i class="fa fa-envelope-o"></i> hello@yourname.com</a></li>
+
+				<!-- *****************************************************************************************
+				The "Powered by Type & Grids" link in the footer is required in the Free version
+				typeandgrids.com/pirates -->
+				<li>Created by <a href="http://www.typeandgrids.com" target="_blank">prosperodesu</a></li>
+				<!--  ************************************************************************************ -->
+
+			</ul>
+			<div class="social-icons">
+				<a href="#" target="_blank"><i class="fa fa-vk 2x"></i> vkontakte</a>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<script src="{{ STATIC_URL }}js/vendor/jquery.min.js"></script>
+<script src="{{ STATIC_URL }}js/foundation.min.js"></script>
+<script src="{{ STATIC_URL }}js/hawthorne.js"></script>
+
+</body>
+</html>
+
+{% endblock %}
